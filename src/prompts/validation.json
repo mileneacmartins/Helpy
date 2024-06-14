@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["question", "bot_response", "expected_answer"],
+    "template": "### SUA TAREFA ###\nDe acordo com a pergunta do usuário, você deve avaliar a resposta fornecido pelo bot e comparar com a resposta esperada, utilizando apenas umas das três opções: CORRETO, PARCIALMENTE CORRETO OU INCORRETO. A resposta deve ser limitada a uma dessas três opções, sem mais delongas, não há necessidade de explicação.\n\nPergunta: {question}\nResposta do Bot: {chatbot_response}\nResposta Esperada: {expected_answer}\n\nClassificação: [Correto, Parcialmente Correto, Incorreto]\nNão responda nada alem disso e NÃO use nenhum tipo de pontuação na classificação"
+}

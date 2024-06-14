@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["chat_history", "human_input"],
+    "template": "### YOUR TASK ###\nGiven the following conversation and the last human input, rephrase the follow up question to be a standalone question.\nInclude as many details from CHAT HISTORY as possible.\n\n### CHAT HISTORY ###\n{chat_history}\n\n### HUMAN INPUT ###\n{human_input}\n\nStandalone question:"
+}
